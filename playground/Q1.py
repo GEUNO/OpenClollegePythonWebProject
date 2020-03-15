@@ -40,3 +40,25 @@ print(a_1,">>>", b_2)
 aa= ['life','is','too','short']
 bb= " ".join(aa)
 print(aa, ">>>", bb)
+
+# adding elements to a tuple
+t_1=(1, 2, 3)
+t_1 += (4,)
+print(t_1)
+
+#dictionary
+d_1={'A':90, 'B':80, 'C':70}
+result= d_1.pop('B')
+print(d_1)
+print(result)
+
+# delete the same numbers
+l_1=[1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 5]
+aSet=set(l_1)
+l_2= list(aSet)
+print(l_2)
+
+# declare variables
+a=b=[1, 2, 3]
+a[1]=4
+print(b)
